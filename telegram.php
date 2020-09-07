@@ -9,10 +9,10 @@ $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
  
 //в переменную $token нужно вставить токен, который нам прислал @botFather
-$token = "1246518845:AAHopBVsK-GIFEEf3BmT-6zZ0IVsFLQjCwY";
+$token = "1316422067:AAHErGRlgeNhMOSJIh-OtxF4-UGJAcnPXZk";
  
 //нужна вставить chat_id (Как получить chad id, читайте ниже)
-$chat_id = "-465354327";
+$chat_id = "-366699787";
  
 //Далее создаем переменную, в которую помещаем PHP массив
 $arr = array(
@@ -30,7 +30,7 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
  
 //Если сообщение отправлено, напишет "Thank you", если нет - "Error"
 if ($sendToTelegram) {
-  echo "Thank you";
+  header('Location: thank-you.html');
 } else {
   echo "Error";
 }
