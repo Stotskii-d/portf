@@ -9,10 +9,10 @@ $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
  
 //в переменную $token нужно вставить токен, который нам прислал @botFather
-$token = "1316422067:AAHErGRlgeNhMOSJIh-OtxF4-UGJAcnPXZk";
+$token = "1339048145:AAF4sFbdy_Cfv_i_tym9jrpMPYuRvfoZ80A";
  
 //нужна вставить chat_id (Как получить chad id, читайте ниже)
-$chat_id = "-366699787";
+$chat_id = "-461408428";
  
 //Далее создаем переменную, в которую помещаем PHP массив
 $arr = array(
