@@ -1,5 +1,5 @@
-<?php
 
+<?php
  
 /* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
@@ -17,7 +17,7 @@ $chat_id = "-366699787";
 //Далее создаем переменную, в которую помещаем PHP массив
 $arr = array(
   'Имя пользователя: ' => $name,
-  'Телефон: ' => $phone
+  'Телефон: ' => $phone,
 );
  
 //При помощи цикла перебираем массив и помещаем переменную $txt текст из массива $arr
